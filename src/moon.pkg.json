@@ -1,0 +1,28 @@
+{
+    "targets": {
+        "stdout.native.mbt": [
+            "native",
+            "llvm"
+        ],
+        "stdout.js.mbt": [
+            "js"
+        ],
+        "stdout.wasm.mbt": [
+            "wasm",
+            "wasm-gc"
+        ]
+    },
+    "warn-list": "-1-2-3-6",
+    "supported-targets": [
+        "js",
+        "native",
+        "wasm",
+        "wasm-gc"
+    ],
+    "native-stub": [
+        "stdout_native.c"
+    ],
+    "import": [
+      "moonbitlang/x/encoding"
+    ]
+}
