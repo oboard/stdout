@@ -17,19 +17,6 @@ test {
   write("Hello")
   write(", ")
   writeln("world!")  // Adds newline
-  
-  // Print with newline
-  print("This is a line")
-  print(42)
-  print(true)
-  
-  // Force flush buffer
-  write("Buffered output")
-  flush()
-  
-  // Works with any Show type
-  let numbers = [1, 2, 3]
-  print(numbers)
 }
 ```
 

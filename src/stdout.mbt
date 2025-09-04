@@ -9,11 +9,6 @@ pub fn[T : Show] writeln(s : T) -> Unit {
 }
 
 ///|
-pub fn[T : Show] print(s : T) -> Unit {
-  writeln(s)
-}
-
-///|
 pub fn flush() -> Unit {
   flush_internal()
 }
