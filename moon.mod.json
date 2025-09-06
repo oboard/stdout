@@ -7,7 +7,7 @@
   "readme": "README.md",
   "repository": "",
   "license": "Apache-2.0",
-  "keywords": [],
-  "description": "",
+  "keywords": ["stdout", "print", "console"],
+  "description": "A cross-target stdout library for MoonBit",
   "source": "src"
 }
